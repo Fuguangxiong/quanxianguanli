@@ -1,0 +1,157 @@
+#RoleManageRoleLinked {
+  position: relative;
+  height: 100%;
+}
+.pa-linked-box {
+  position: absolute;
+  top: 44px;
+  left: 0px;
+  bottom: 17px;
+  right: 0px;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+}
+.pa-table-body{
+  position:absolute;
+  left: 20px;
+  top: 80px;
+  right: 20px;
+  bottom: 10px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+.pa-link-delete {
+  position: absolute;
+  top: 15px;
+  right: 80px;
+  cursor: pointer;
+  color: #333;
+  transition: color .4s;
+}
+.pa-link-add {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  cursor: pointer;
+  color: #333;
+  transition: color .4s;
+}
+.pa-link-add:hover {
+  color: #3E81EA;
+}
+.pa-link-delete:hover {
+  color: #3E81EA;
+}
+.pa-link-add .pa-add-text {
+  display: inline-block;
+  transform: translateY(-8px);
+  margin-left: 1px;
+}
+.pa-link-add .icon-xinzeng {
+  font-size: 20px;
+  display: inline-block;
+  transform: translateY(-5px);
+}
+.pa-link-delete .pa-add-text {
+  display: inline-block;
+  transform: translateY(-8px);
+  margin-left: 1px;
+}
+.pa-link-delete .icon-piliangshanchu {
+  font-size: 15px;
+  display: inline-block;
+  transform: translateY(-5px);
+  vertical-align: bottom;
+}
+.pa-linked-table {
+  margin-top: 4px;
+  width: 100%;
+}
+.pa-linked-box-title{
+  padding-bottom: 6px;
+  font-weight: 600;
+}
+.pa-linked-box-title>span{
+  font-weight: normal;
+}
+.pa-table-head {
+  height: 42px;
+  line-height: 42px;
+  background-color: rgba(236,243,253,0.5);
+  font-weight: 600;
+}
+.pa-table-head>span{
+  /* overflow: hidden;
+ 
+  text-overflow:ellipsis;
+  white-space: nowrap;   */
+} 
+.pa-table-row>span{
+  padding: 0 12px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+.pa-table-row {
+  height: 60px;
+  line-height: 60px;
+  border-bottom: 1px solid #ecf3fd;
+  transition: background-color .4s;
+}
+.pa-table-row:hover{
+  background: #f5f8fd;
+}
+.pa-table-col1 {
+  width: 6%;
+  display: inline-block;
+  text-align: center;
+}
+.pa-table-col2 {
+  width: 12%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+.pa-table-col3 {
+  width: 16%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+.pa-table-col4 {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+.pa-table-col5 {
+  width: 22%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+.pa-table-col6 {
+  width: 12%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+.pa-table-col7 {
+  width: 9%;
+  display: inline-block;
+  text-align: center;
+  font-size: 12px
+}
+.icon-yichu {
+  cursor: pointer;
+  font-size: 18px;
+  transform: translateX(1px);
+  padding: 0px 10px;
+  display: inline-block;
+  color: #3E81EA;
+}
+.paginationBlock .el-pagination{
+  text-align: center;
+  height:40px;
+}

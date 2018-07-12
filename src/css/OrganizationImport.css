@@ -1,0 +1,151 @@
+#OrganizationImport {
+  height: 100%;
+}
+.pa-import-box {
+  width: 100%;
+  height: calc(100% - 50px);
+}
+.pa-left-box {
+  float: left;
+  width: 550px;
+  padding: 20px 10px 20px 0;
+}
+.pa-download-upload {
+  display: inline-block;
+  width: 500px;
+  height: 155px;
+  border: 1px dashed #e5e5e5;
+  padding-top: 30px;
+  padding-left: 18px;
+}
+.pa-row {
+  text-align: left;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.pa-sort {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px dashed #3d82ea;
+  text-align: center;
+  line-height: 22px;
+  color: #3d82ea;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.btnBlue {
+  margin-left: 10px;
+}
+.pa-upload {
+  position: relative;
+  display: inline-block;
+  width: 66px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #3d82ea;
+  border: solid 1px #307ae9;
+  border-radius: 4px;
+  overflow: hidden;
+  color: #fff;
+  text-decoration: none;
+  font-size: 12px;
+  top: 8px;
+}
+.pa-upload > input {
+  position: absolute;
+  font-size: 100px;
+  right: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.pa-caption {
+  display: inline-block;
+  width: 550px;
+  text-align: left;
+  margin-top: 20px;
+}
+.pa-caption > p:first-of-type {
+  font-weight: bold;
+}
+.pa-right-box {
+  float: left;
+  width: calc(100% - 550px);
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.pa-template {
+  background-color: #f8f8f8;
+  color: #2973b7;
+  padding: 1.2em 1.4em;
+  position: relative;
+  max-height: 432px;
+  overflow-y: auto;
+}
+.pa-template::before {
+  content: "XML";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #ccc;
+  font-size: 14px;
+  font-weight: 600;
+}
+.pa-template .string {
+  color: #42b983;
+}
+.pa-template .content {
+  color: #525252;
+}
+.pa-btn {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+}
+.pa-fileName {
+  
+}
+.pa-success-tip {
+  position: relative;
+  height: calc(100% - 30px);
+}
+.icon-zhengque {
+  font-size: 20px;
+  color: #55a8fd;
+  margin-right: 5px;
+}
+.pa-tips {
+  position: absolute;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%,-200%);
+  text-align: center;
+}
+.pa-tips span{
+  color: #55a8fd;
+  cursor: pointer;
+}
+.pa-tips img{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.pa-title {
+  margin-bottom: 10px;
+}
+.pa-title > div {
+  display: inline-block;
+}
+.pa-title > div:first-of-type {
+  margin-right: 20px;
+}
+.pa-title-name {
+  font-weight: bold;
+}

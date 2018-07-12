@@ -1,0 +1,456 @@
+#PermissionsPointManagement {
+  height: 100%;
+}
+
+/* 选择系统栏 */
+
+.pa-select-system {
+  height: 30px;
+  line-height: 30px;
+  margin: 12px 0;
+  position: relative;
+  padding-left: 10px;
+}
+
+/* 模块导航栏 */
+
+.pa-module-nav {
+  position: relative;
+  height: 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #74a6fa;
+}
+
+.pa-nav-item-list {
+  width: calc(100% - 90px);
+}
+
+.pa-nav-item {
+  float: left;
+  max-width: 98px;
+  height: 30px;
+  text-align: center;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 10px;
+}
+
+.pa-nav-item.active {
+  border: 1px solid #74a6fa;
+  border-bottom: 1px solid #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pa-export-import {
+  position: absolute;
+  right: 10px;
+}
+.pa-import, .pa-export {
+  display: inline-block;
+  cursor: pointer;
+  transition: color .4s;
+}
+.pa-export {
+  margin-right: 10px;
+}
+.icon-daoru {
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+.icon-daochu-tianchong {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.pa-import:hover, .pa-export:hover {
+  color: #3D82EA;
+}
+
+/* 资源信息 */
+
+.pa-resource {
+  border: 1px solid #eee;
+  border-top: none;
+  height: calc(100% - 120px);
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+
+.pa-resource-left {
+  float: left;
+  height: 100%;
+  width: 25%;
+  border-right: 1px solid #eee;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+/* 资源信息左侧样式 */
+
+.pa-left-title {
+  position: relative;
+}
+
+.icon-shuxuanzeqi {
+  display: inline-block;
+  transform: translateY(1px);
+}
+
+.pa-title-text {
+  padding-left: 5px;
+  font-weight: bold;
+}
+
+.pa-add-root {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  cursor: pointer;
+  transition: color .4s
+}
+
+.pa-add-root:hover {
+  color: #3D82EA;
+}
+
+.pa-add-root .icon-tianjiayuzhuceqiye {
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.pa-left-tree {
+  overflow-y: auto;
+  height: calc(100% - 14px);
+}
+
+/* 树的样式 */
+
+.custom-tree-node {
+  display: inline-block;
+  width: calc(100% - 24px);
+  position: relative;
+}
+
+.pa-tree-icon {
+  position: absolute;
+  top: -3px;
+  right: 0;
+  font-weight: normal;
+}
+
+.pa-tree-icon .active {
+  color: #55adf8;
+}
+
+.icon:hover {
+  color: #55adf8;
+  transition: all .3s;
+}
+
+.pa-tree-label {
+  float: left;
+  width: calc(100% - 66px);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 资源信息右侧样式 */
+
+.pa-resource-right {
+  float: left;
+  height: 100%;
+  width: 75%;
+  padding: 10px;
+  padding-top: 5px;
+}
+
+.pa-right-title {
+  font-weight: bold;
+  height: 24px;
+}
+
+.pa-right-title>span {
+  display: inline-block;
+  transform: translateY(3px);
+}
+
+.dian {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  background-color: #333;
+  margin-right: 5px;
+}
+
+.pa-resource-info {
+  padding-top: 40px;
+  overflow-y: auto;
+  height: calc(100% - 15px);
+}
+
+.pa-input-line {
+  margin-bottom: 15px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.pa-input-title {
+  float: right;
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.pa-input input {
+  width: 270px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding-left: 5px;
+  -moz-outline-radius: 4px;
+  outline: none;
+}
+
+.pa-input>span {
+  height: 30px;
+  padding-left: 6px;
+  display: inline-block;
+  width: 270px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pa-input input:focus {
+  border: 1px solid #55a8fd;
+  box-shadow: 0 0 2px #55a8fd;
+}
+
+.pa-operate-box {
+  width: 270px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+}
+.pa-box-head {
+  background-color: #f5f9fd;
+  font-weight: bold;
+}
+.pa-box-row {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.pa-box-row:last-of-type {
+  border-bottom: none;
+}
+.pa-col1 {
+  float: left;
+  display: inline-block;
+  width: 40%;
+  height: 30px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+.pa-col2 {
+  float: left;
+  display: inline-block;
+  width: 60%;
+  height: 30px;
+  text-align: center;
+}
+.pa-col1 > span {
+  display: inline-block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.pa-col1 .code-input {
+  width: 100px;
+  height: 19px;
+  text-align: center;
+  padding-left: 0;
+}
+.pa-col2 .code-input {
+  width: 140px;
+  height: 19px;
+  text-align: center;
+  padding-left: 0;
+}
+.pa-operate-icon {
+  position: absolute;
+  left: 274px;
+  top: 50%;
+  width: 40px;
+  transform: translateY(-50%);
+}
+.icon-xiazai14, .icon-bianji1 {
+  transition: color .4s;
+  cursor: pointer;
+}
+.pa-box-row .icon-xiazai14:hover, .icon-xinzeng:hover, .icon-bianji1:hover{
+  color: #3D82EA;
+}
+.pa-res-normal .icon-xinzeng {
+  color: #ccc;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color .4s;
+}
+.pa-blank {
+  display: inline-block;
+  width: 100%;
+}
+.pa-input-btn {
+  margin-top: 30px;
+}
+.btn-left {
+  margin-left: 20px;
+  outline: none;
+}
+.btn-right {
+  margin-left: 44px;
+  outline: none;
+}
+.pa-parent-res {
+  position: relative;
+}
+.pa-parent-res > input {
+  background-color: #fff;
+}
+.icon-zuzhiguanli {
+  position: absolute;
+  left: 246px;
+  cursor: pointer;
+  color: #3d82ea;
+}
+.pa-parent-tree {
+  position: absolute;
+  left: 0;
+  top: 32px;
+  width: 270px;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 12px;
+}
+/*API栏*/
+.pa-resource-main{
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  height: 100%;
+}
+.pa-link-add{
+  position: absolute;
+  right: 6px;
+  top: -30px;
+  cursor: pointer;
+  transition: color .4s;
+  color: #333;
+}
+.pa-resource-list .pa-link-add:hover {
+    color: #3E81EA;
+}
+.pa-link-add .pa-add-text {
+    display: inline-block;
+    transform: translateY(-1px);
+}
+.pa-resource-top{
+  margin-top: 20px;
+}
+.pa-resource-input{
+  float: left;
+}
+.pa-resource-input:nth-child(1){
+  width: 36%;
+}
+.pa-resource-input:nth-child(2){
+  width: 36%;
+}
+.pa-resource-input input{
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 6px;
+  -moz-outline-radius: 4px;
+  width: 200px;
+  outline: none;
+}
+.pa-resource-input input:focus{
+  border: 1px solid #55a8fd;
+  box-shadow: 0 0 2px #55a8fd;
+}
+.pa-resource-top button{
+  margin-top: 2px;
+}
+.pa-resource-list{
+  margin-top: 40px;
+  position: relative;
+  height: calc(100% - 100px);
+}
+.pa-linked-table {
+  margin-top: 4px;
+  width: 100%;
+  height: calc(100% - 30px);
+}
+.pa-table-head {
+    height: 42px;
+    line-height: 42px;
+    background-color: rgba(236,243,253,0.5);
+    font-weight: 600;
+}
+.pa-table-body {
+    width: 100%;
+    overflow-y: auto;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.pa-table-body .pa-table-row>span{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  padding: 0 4px;
+}
+.pa-table-row {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #ecf3fd;
+    transition: background-color .4s;
+}
+.pa-table-col1 {
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+}
+.pa-table-col2 {
+    width: 11%;
+    display: inline-block;
+    text-align: center;
+}
+.pa-table-col3 {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.pa-table-col4 {
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+}
+.pa-table-col5 {
+    width: 11%;
+    display: inline-block;
+    text-align: center;
+}
+.pa-table-body .icon{
+  margin-left: 6px;
+}

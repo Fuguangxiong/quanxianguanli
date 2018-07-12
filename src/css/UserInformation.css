@@ -1,0 +1,139 @@
+.pa-content-box{
+  padding: 0 100px;
+}
+.pa-content-title{
+  border-bottom: 1px solid #f1f1f1;
+  padding: 5px;
+  margin: 22px 0px 30px 0px;
+}
+.pa-content-title span{
+  font-size: 16px;
+  border-bottom: 2px solid #ff4500;
+  padding: 5px 0px;
+}
+.pa-input-line{
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.pa-input-title{
+  float: right;
+  padding-right: 5px;
+}
+.pa-input input{
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0 6px;
+  -moz-outline-radius: 4px;
+  position: relative;
+  top: -6px;
+  width: 232px;
+  outline: none;
+}
+.pa-input .pa-text-info{
+  display: inline-block;
+  height: 26px;
+  padding: 0 6px;
+}
+.pa-input input:focus{
+  border: 1px solid #55a8fd;
+  box-shadow: 0 0 2px #55a8fd;
+}
+.pa-input textarea{
+  resize: none;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 6px 6px;
+  -moz-outline-radius: 4px;
+  position: relative;
+  top: -4px;
+  width: 232px;
+  height: 70px;
+  outline: none;
+}
+.pa-input textarea:focus{
+  border: 1px solid #55a8fd;
+  box-shadow: 0 0 2px #55a8fd;
+}
+.pa-required::before{
+  content: "*";
+  color: #fa3753;
+  margin-right: 5px;
+}
+.pa-input button{
+  cursor: pointer;
+}
+.pa-input img{
+  position: relative;
+  margin-left: 10px;
+  top: -8px;
+}
+.pa-select{
+  position: relative;
+  top: -6px;
+}
+.pa-error-info{
+  margin-left: 10px;
+  color: #fa3753;
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+}
+.pa-pass-info{
+  margin-left: 10px;
+  color: #1bc001;
+  font-size: 12px;
+  position: relative;
+  top: -6px;
+}
+.pa-blank{
+  display: inline-block;
+  width: 100%;
+}
+.pa-btn-one{
+  margin-left: 20px;
+}
+.pa-btn-two{
+  margin-left: 60px;
+}
+.pa-input{
+  position: relative;
+}
+.pa-input .pa-errorinput{
+  border-color: #fa3753;
+}
+.pa-input>div:nth-child(2){
+  margin: 0 9px;
+}
+.pa-account-tips{
+  background-color: #f8f8f8;
+  display: inline-block;
+  width: 170px;
+  padding: 5px 0 5px 24px;
+  position: absolute;
+  border-radius: 6px;
+  top: -30px;
+  left: 240px;
+}
+
+.pa-account-tips ul{
+  list-style-type: circle;
+  color: #888;
+  width: 150px;
+}
+.pa-account-tips1 {
+  background-color: #f8f8f8;
+  display: inline-block;
+  width: 170px;
+  padding: 5px 0 5px 24px;
+  position: absolute;
+  border-radius: 6px;
+  top: -12px;
+  left: 240px;
+}
+.pa-account-tips1 ul{
+  list-style-type: circle;
+  color: #888;
+  width: 150px;
+}

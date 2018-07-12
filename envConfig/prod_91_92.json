@@ -1,0 +1,6 @@
+{
+    "API_SERVER": "http://www.iscas.com:8081/iscs",
+    "LOGIN_URL": "http://www.iscas.com:8081/iscs/login",
+    "LOGOUT_URL": "http://www.iscas.com:8081/iscs/logout",
+    "APP_MARKET": "http://www.iscas.com:8082/platform/mall/#/"
+}
